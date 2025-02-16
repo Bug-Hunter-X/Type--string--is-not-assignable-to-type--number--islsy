@@ -1,0 +1,1 @@
+This bug demonstrates a common type error in TypeScript.  The `combine` function is designed to work with number arrays. However, the provided example passes a string ('6') into the second array. TypeScript's type system correctly flags this as an error. The solution involves ensuring the input arrays contain only numbers.
